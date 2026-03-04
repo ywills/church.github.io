@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shady Grove MBC | Live Bible Study</title>
+  <meta name="description" content="Shady Grove Missionary Baptist Church — Loving God. Loving People. Serving Our City." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="topbar">
+    📌 Next Service: <strong>2nd &amp; 4th Sundays — 11:00 AM</strong> • <a href="visit.html">Plan Your Visit</a>
+  </div>
+
+  <nav>
+    <div class="nav-wrap">
+      <a class="brand" href="index.html" aria-label="Home">
+        <span class="brand-badge">SG</span>
+        Shady Grove MBC
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navLinks">
+        Menu ☰
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="index.html" class="">Home</a>
+        <a href="about.html" class="">About</a>
+        <a href="word.html" class="">Daily Word</a>
+        <a href="sermons.html" class="">Sermons</a>
+        <a href="live.html" class="active">Live Bible Study</a>
+        <a href="events.html" class="">Events</a>
+        <a href="give.html" class="">Give</a>
+        <a href="contact.html" class="">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="top">
+  <div class="container">
+    <h2>Live Bible Study</h2>
+    <p class="lead">Stream on YouTube Live (free) and embed it here. Recordings stay on YouTube.</p>
+
+    <div class="card">
+      <h3>Live Stream</h3>
+      <p class="lead">Replace <strong>CHANNEL_ID</strong> below with your YouTube Channel ID.</p>
+
+      <div style="position:relative; padding-top:56.25%; border-radius:14px; overflow:hidden; border:1px solid var(--border); background:#fff;">
+        <iframe
+          title="Live Bible Study"
+          src="https://www.youtube.com/embed/live_stream?channel=CHANNEL_ID"
+          style="position:absolute; inset:0; width:100%; height:100%; border:0;"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <p style="margin-top:12px; color:var(--muted);">
+        Not live right now? Visit the <a href="sermons.html"><strong>Sermon Library</strong></a> for recordings.
+      </p>
+    </div>
+  </div>
+</section>
+
+  <footer>
+    <p>© <span id="year">2026</span> Shady Grove Missionary Baptist Church. All rights reserved.</p>
+    <p class="muted">959 Shady Grove Road, Lyon, MS 38645 • (901) 569-0410</p>
+  </footer>
+
+  <div class="to-top" id="toTop">
+    <a href="#top" aria-label="Back to top">↑ Top</a>
+  </div>
+
+  <script src="assets/app.js"></script>
+  
+</body>
+</html>
