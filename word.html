@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shady Grove MBC | Daily Word</title>
+  <meta name="description" content="Shady Grove Missionary Baptist Church — Loving God. Loving People. Serving Our City." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="topbar">
+    📌 Next Service: <strong>2nd &amp; 4th Sundays — 11:00 AM</strong> • <a href="visit.html">Plan Your Visit</a>
+  </div>
+
+  <nav>
+    <div class="nav-wrap">
+      <a class="brand" href="index.html" aria-label="Home">
+        <span class="brand-badge">SG</span>
+        Shady Grove MBC
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navLinks">
+        Menu ☰
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="index.html" class="">Home</a>
+        <a href="about.html" class="">About</a>
+        <a href="word.html" class="active">Daily Word</a>
+        <a href="sermons.html" class="">Sermons</a>
+        <a href="live.html" class="">Live Bible Study</a>
+        <a href="events.html" class="">Events</a>
+        <a href="give.html" class="">Give</a>
+        <a href="contact.html" class="">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="top">
+  <div class="container">
+    <h2>Daily Word & Inspiration</h2>
+    <p class="lead">The Scripture of the Day is loaded automatically, and “Daily Inspiration” rotates from your file.</p>
+
+    <div class="grid">
+      <div class="span-6">
+        <div class="word-box">
+          <h3>Scripture of the Day</h3>
+          <p id="vodVerse"><strong>Loading today’s verse...</strong></p>
+          <p id="vodRef" style="margin-top:8px;"></p>
+          <h4>Reflection</h4>
+          <p>Pause, pray, and ask God how to apply this verse today.</p>
+          <p id="vodError" style="color:#b91c1c; display:none; margin-top:10px;"></p>
+        </div>
+      </div>
+
+      <div class="span-6">
+        <div class="word-box">
+          <h3>Daily Inspiration</h3>
+          <p id="inspoText"><strong>Loading inspiration...</strong></p>
+          <p id="inspoRef" style="margin-top:8px;"></p>
+          <p id="inspoError" style="color:#b91c1c; display:none; margin-top:10px;"></p>
+          <p style="margin-top:10px;color:var(--muted);">
+            You can update inspiration by editing <strong>inspiration.json</strong>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <footer>
+    <p>© <span id="year">2026</span> Shady Grove Missionary Baptist Church. All rights reserved.</p>
+    <p class="muted">959 Shady Grove Road, Lyon, MS 38645 • (901) 569-0410</p>
+  </footer>
+
+  <div class="to-top" id="toTop">
+    <a href="#top" aria-label="Back to top">↑ Top</a>
+  </div>
+
+  <script src="assets/app.js"></script>
+  <script src="assets/word.js"></script>
+</body>
+</html>
