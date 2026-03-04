@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shady Grove MBC | Sermons</title>
+  <meta name="description" content="Shady Grove Missionary Baptist Church — Loving God. Loving People. Serving Our City." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="topbar">
+    📌 Next Service: <strong>2nd &amp; 4th Sundays — 11:00 AM</strong> • <a href="visit.html">Plan Your Visit</a>
+  </div>
+
+  <nav>
+    <div class="nav-wrap">
+      <a class="brand" href="index.html" aria-label="Home">
+        <span class="brand-badge">SG</span>
+        Shady Grove MBC
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navLinks">
+        Menu ☰
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="index.html" class="">Home</a>
+        <a href="about.html" class="">About</a>
+        <a href="word.html" class="">Daily Word</a>
+        <a href="sermons.html" class="active">Sermons</a>
+        <a href="live.html" class="">Live Bible Study</a>
+        <a href="events.html" class="">Events</a>
+        <a href="give.html" class="">Give</a>
+        <a href="contact.html" class="">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="top">
+  <div class="container">
+    <h2>Sermon Library</h2>
+    <p class="lead">Search by title, speaker, series, scripture, or date. Add sermons by editing <strong>sermons.json</strong>.</p>
+
+    <div class="controls">
+      <input id="sermonSearch" type="text" placeholder="Search sermons..." />
+      <select id="sermonSeries">
+        <option value="">All Series</option>
+      </select>
+    </div>
+
+    <div id="sermonList" class="grid" style="grid-template-columns: repeat(auto-fit,minmax(280px,1fr));"></div>
+    <p id="sermonMsg" style="margin-top:12px; color:#666;"></p>
+  </div>
+</section>
+
+  <footer>
+    <p>© <span id="year">2026</span> Shady Grove Missionary Baptist Church. All rights reserved.</p>
+    <p class="muted">959 Shady Grove Road, Lyon, MS 38645 • (901) 569-0410</p>
+  </footer>
+
+  <div class="to-top" id="toTop">
+    <a href="#top" aria-label="Back to top">↑ Top</a>
+  </div>
+
+  <script src="assets/app.js"></script>
+  <script src="assets/sermons.js"></script>
+</body>
+</html>
